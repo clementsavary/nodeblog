@@ -1,0 +1,21 @@
+{
+  "name": "node-blog",
+  "version": "1.0.0",
+  "description": "Mon premier blog avec Node.js",
+  "main": "index.js",
+  "scripts": {
+    "keppler": "keppler --host jmclery.synology.me --port 1337",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
